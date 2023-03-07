@@ -1,0 +1,21 @@
+{
+    "event_id": "EDR-12345",
+    "event_type": "Forced Authentication",
+    "event_time": "2022-12-31T23:59:59Z",
+    "event_severity": "High",
+    "affected_hosts": [
+      {
+        "host_name": "DESKTOP-ABCDE",
+        "ip_address": "192.168.1.100"
+      }
+    ],
+    "event_description": "Forced authentication attempt detected on host DESKTOP-ABCDE",
+    "event_details": {
+      "username": "jdoe",
+      "domain": "MYDOMAIN",
+      "authentication_method": "NTLM",
+      "source_ip": "192.168.1.101",
+      "destination_ip": "192.168.1.100",
+      "authentication_result": "Failure"
+    }
+}

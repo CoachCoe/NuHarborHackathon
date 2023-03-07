@@ -1,0 +1,17 @@
+{
+    "AlertType": "ForcedAuthentication",
+    "Severity": "High",
+    "Timestamp": "2022-02-28T14:23:45Z",
+    "MachineName": "DESKTOP-12345",
+    "AccountName": "JohnDoe",
+    "AccountDomain": "CONTOSO",
+    "IpAddress": "192.168.1.100",
+    "ProcessName": "svchost.exe",
+    "ProcessId": 1234,
+    "ParentProcessName": "explorer.exe",
+    "ParentProcessId": 5678,
+    "CommandLine": "",
+    "Hash": "3f6e9e6d8e6e4343b14c408e7f4e42c0",
+    "AlertLink": "https://securitycenter.windows.com/alert/1234",
+    "Description": "Forced authentication attempt detected. An application tried to force a user to authenticate in order to perform an action."
+  }
