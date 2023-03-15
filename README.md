@@ -18,3 +18,7 @@ Notes:
 The alerts were generated and manipulated for the hackathon. You should not make any inferences about the distributiuon patterns. There is no logic to that and in the real-world the distribution is unpredicitable and will vary from organization to organization
 
 Ignore all time stamps and event_id or AlertID's. There is no logic to them and no correlation to the ID's and the meaning of any alert. `
+
+Becuase there was manual manipulation in creating the events, it's possible there are human errors, ie spelling or duplicate or missing info. These should be at a very minimum number
+
+The intent is for this to be an NLP solution whereby we can create a model that learns from the text of the alerts what the equivalent alert is in Microsoft Defender for Endpoint vx in CrowdStrike Falcon. The anticipated result is the common ontology, or common langauge to refer to and describe the same alert from different vendors 
