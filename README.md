@@ -1,7 +1,8 @@
 Hello and welcome to the coding part of the challenge.  This will be your guide for working with the data. Please reach out via the Discord channel if you have any questions or issues
 
 There are two zipped files at this link:
-https://github.com/CoachCoe/NuHarborHackathon/edit/main/README.md
+https://drive.google.com/drive/folders/1vE_OHbpvNBNKMwv7938f3YZr7NWG4JlO?usp=share_link
+
 All-CS.zip is all of the test/training data for CrowdStrike Falcon. The individual alerts are json objects and the file is a collection of those objects.  The file itself doesn't have a top level elelemt so itself it is not a valid jsob object
 
 All-MS.zip is all of the test/training data for Microsoft Defender for Endpoint. The individual alerts are json objects and the file is a collection of those objects.  The file itself doesn't have a top level elelemt so itself it is not a valid jsob object
