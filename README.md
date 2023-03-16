@@ -22,4 +22,4 @@ Ignore all time stamps and event_id or AlertID's. There is no logic to them and 
 
 Becuase there was manual manipulation in creating the events, it's possible there are human errors, ie spelling or duplicate or missing info. These should be at a very minimum number
 
-The intent is for this to be an NLP solution whereby we can create a model that learns from the text of the alerts what the equivalent alert is in Microsoft Defender for Endpoint vx in CrowdStrike Falcon. The anticipated result is the common ontology, or common langauge to refer to and describe the same alert from different vendors 
+The intent is for this to be an NLP solution however it is possible some inferences and predictions can be made from the fomrat and structure of the alerts.  In either case the goal is to create a model that learns from the alerts what the equivalent alert is in Microsoft Defender for Endpoint vs in CrowdStrike Falcon. The anticipated result is the common ontology, or common langauge to refer to and describe the same alert from different vendors 
